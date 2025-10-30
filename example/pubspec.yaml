@@ -1,0 +1,22 @@
+name: pinput_plus_example
+description: Example app for pinput_plus
+publish_to: none
+version: 1.0.0
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  pinput_plus:
+    path: ..
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+
