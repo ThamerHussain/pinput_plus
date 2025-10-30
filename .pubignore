@@ -1,0 +1,9 @@
+.dart_tool/
+build/
+
+example/.dart_tool/
+example/build/
+
+.DS_Store
+.packages
+
