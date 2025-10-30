@@ -1,6 +1,5 @@
 name: pinput_plus
-description: pinput plus package
-publish_to: none
+description: A customizable PIN/OTP input widget for Flutter.
 version: 1.0.0
 
 environment:
