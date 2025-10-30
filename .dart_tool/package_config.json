@@ -68,6 +68,12 @@
       "languageVersion": "3.2"
     },
     {
+      "name": "lints",
+      "rootUri": "file:///Users/thamerhussain/.pub-cache/hosted/pub.dev/lints-6.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.8"
+    },
+    {
       "name": "matcher",
       "rootUri": "file:///Users/thamerhussain/.pub-cache/hosted/pub.dev/matcher-0.12.17",
       "packageUri": "lib/",

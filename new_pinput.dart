@@ -1,3 +1,3 @@
-library pinput;
+library;
 
 export 'lib/pinput_plus.dart';

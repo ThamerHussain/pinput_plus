@@ -2,18 +2,12 @@ part of '../pinput.dart';
 
 class _PinputFormField extends FormField<String> {
   const _PinputFormField({
-    required final FormFieldValidator<String>? validator,
-    required final bool enabled,
-    required final String? initialValue,
-    required final Widget Function(FormFieldState<String> field) builder,
-    Key? key,
+    required super.validator,
+    required super.enabled,
+    required super.initialValue,
+    required super.builder,
   }) : super(
-         key: key,
-         enabled: enabled,
-         validator: validator,
          autovalidateMode: AutovalidateMode.disabled,
-         initialValue: initialValue,
-         builder: builder,
        );
 }
 
@@ -28,8 +22,7 @@ class _SeparatedRaw extends StatelessWidget {
     required this.mainAxisAlignment,
     this.separator,
     this.separatorPositions,
-    Key? key,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -46,8 +39,8 @@ class _SeparatedRaw extends StatelessWidget {
       for (int i = 0; i < separatorsCount; ++i) {
         final index = i + actualSeparatorPositions[i];
         if (index <= children.length) {
-          final _separator = separator?.call(index) ?? const SizedBox.shrink();
-          children.insert(index, _separator);
+          final separatorWidget = separator?.call(index) ?? const SizedBox.shrink();
+          children.insert(index, separatorWidget);
         }
       }
     }

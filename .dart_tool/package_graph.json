@@ -10,8 +10,14 @@
         "flutter"
       ],
       "devDependencies": [
-        "flutter_test"
+        "flutter_test",
+        "lints"
       ]
+    },
+    {
+      "name": "lints",
+      "version": "6.0.0",
+      "dependencies": []
     },
     {
       "name": "flutter_test",

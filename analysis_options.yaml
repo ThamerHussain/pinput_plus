@@ -1,0 +1,14 @@
+include: package:lints/recommended.yaml
+
+linter:
+  rules:
+    # Helpful readability and safety rules
+    avoid_print: true
+    always_declare_return_types: true
+    prefer_final_locals: true
+    unnecessary_this: true
+
+analyzer:
+  language:
+    strict-inference: true
+    strict-raw-types: true
