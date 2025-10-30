@@ -1,6 +1,6 @@
 name: pinput_plus
 description: Flexible, customizable PIN/OTP input for Flutter with themes, masking, and validation—ideal for login, 2FA, and verification flows on mobile, desktop and web.
-version: 1.0.2
+version: 1.0.3
 
 environment:
   sdk: ^3.8.1
