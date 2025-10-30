@@ -47,10 +47,7 @@ class _ExamplePageState extends State<ExamplePage> {
           const SizedBox(height: 24),
           const Text('Fixed spacing between each field'),
           const SizedBox(height: 8),
-          Pinput(
-            length: 6,
-            separator: (index) => const SizedBox(width: 12),
-          ),
+          Pinput(length: 6, separator: (index) => const SizedBox(width: 12)),
           const SizedBox(height: 24),
           const Text('Group 3-3 with a vertical divider'),
           const SizedBox(height: 8),

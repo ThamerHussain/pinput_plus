@@ -26,13 +26,7 @@ enum AndroidSmsAutofillMethod {
 }
 
 /// The animation type if Pin item
-enum PinAnimationType {
-  none,
-  scale,
-  fade,
-  slide,
-  rotation,
-}
+enum PinAnimationType { none, scale, fade, slide, rotation }
 
 /// The vibration type when user types
 enum HapticFeedbackType {

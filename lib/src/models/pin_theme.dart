@@ -115,8 +115,6 @@ class PinTheme {
 
   PinTheme copyBorderWith({required Border border}) {
     assert(decoration != null);
-    return copyWith(
-      decoration: decoration?.copyWith(border: border),
-    );
+    return copyWith(decoration: decoration?.copyWith(border: border));
   }
 }

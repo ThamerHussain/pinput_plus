@@ -498,10 +498,7 @@ class Pinput extends StatefulWidget {
       DiagnosticsProperty<Widget?>('cursor', cursor, defaultValue: null),
     );
     properties.add(
-      DiagnosticsProperty<Widget? Function(int)>(
-        'separator',
-        separator,
-      ),
+      DiagnosticsProperty<Widget? Function(int)>('separator', separator),
     );
     properties.add(
       DiagnosticsProperty<Widget?>(

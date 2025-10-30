@@ -6,9 +6,7 @@ class _PinputFormField extends FormField<String> {
     required super.enabled,
     required super.initialValue,
     required super.builder,
-  }) : super(
-         autovalidateMode: AutovalidateMode.disabled,
-       );
+  }) : super(autovalidateMode: AutovalidateMode.disabled);
 }
 
 class _SeparatedRaw extends StatelessWidget {
@@ -39,7 +37,8 @@ class _SeparatedRaw extends StatelessWidget {
       for (int i = 0; i < separatorsCount; ++i) {
         final index = i + actualSeparatorPositions[i];
         if (index <= children.length) {
-          final separatorWidget = separator?.call(index) ?? const SizedBox.shrink();
+          final separatorWidget =
+              separator?.call(index) ?? const SizedBox.shrink();
           children.insert(index, separatorWidget);
         }
       }
